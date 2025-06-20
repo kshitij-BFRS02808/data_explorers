@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier
 
-st.set_page_config(page_title="Company Upsell & Capital Suggestor", layout="wide")
+st.set_page_config(page_title="Smart Upsell Recommendations", layout="wide")
 
 # === Sidebar info ===
 st.sidebar.header("🧠 Model Thresholds")
@@ -25,7 +25,7 @@ st.sidebar.markdown("""
 """)
 
 # === Title ===
-st.title("📈 Company-Level Upsell & Capital Suggestion Engine")
+st.title("📈 Smart Upsell Recommendations")
 
 # === File Upload ===
 uploaded_file = st.file_uploader("📤 Upload your order CSV", type=["csv"])
